@@ -33,7 +33,7 @@ export default {
       <code>{{ book.publisher }}</code>
       <router-link
         v-if="!isShow"
-        :to="{ name: 'book', params: { slug: book.slug } }"
+        :to="{ name: 'book', params: { id: book.id } }"
         class="btn btn-primary"
         title="Vedi il libro completo"
         >View More</router-link
