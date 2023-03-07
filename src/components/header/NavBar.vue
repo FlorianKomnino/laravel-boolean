@@ -20,7 +20,7 @@ export default {
     <ul>
       <li>
         <router-link v-for="navLink in navLinks" :to="{ name: navLink.name }">
-          <span>{{ navLink.name }}</span>
+          <span> <font-awesome-icon icon="fa-solid fa-book" /> {{ navLink.name }}</span>
         </router-link>
       </li>
     </ul>
