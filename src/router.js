@@ -4,7 +4,7 @@ import HomePage from './pages/HomePage.vue';
 import AboutUs from './pages/AboutUs.vue';
 import ContactUs from './pages/ContactUs.vue';
 import BooksList from './pages/BooksList.vue';
-import SingleBook from './pages/SingleBook.vue';
+import SingleBookPage from './pages/SingleBookPage.vue';
 
 const router = createRouter({
     history: createWebHistory(),
@@ -32,7 +32,7 @@ const router = createRouter({
         {
             path: '/books/:id',
             name: 'book',
-            component: SingleBook
+            component: SingleBookPage
         },
     ]
 });
