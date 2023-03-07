@@ -30,7 +30,7 @@ const router = createRouter({
             component: BooksList
         },
         {
-            path: '/books/:slug',
+            path: '/books/:id',
             name: 'book',
             component: SingleBook
         },
