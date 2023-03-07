@@ -29,7 +29,7 @@ export default {
     },
     methods: {
         getBooks(){
-            axios.get(this.urlAddress + '/api/books/', {
+            axios.get(this.urlAddress + '/api/books', {
                 params: {
                     page: this.currentPage
                 }

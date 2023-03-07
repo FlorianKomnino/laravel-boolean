@@ -10,7 +10,7 @@ import axios from 'axios'
 
 export default {
 
-    name: 'SingleBook',
+    name: 'SingleBookPage',
     components: {
         SingleBook
     },
@@ -23,7 +23,7 @@ export default {
     },
     methods: {
         getBook(){
-            axios.get(this.urlAddress + `/api/projects/${this.$route.params.slug}`, {
+            axios.get(this.urlAddress + `/api/books/${this.$route.params.id}`, {
                 params: {
                 }
             })
