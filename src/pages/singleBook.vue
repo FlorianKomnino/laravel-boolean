@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import SingleBook from '../components/SingleBook.vue'
+import SingleBook from '../components/main/SingleBook.vue'
 import axios from 'axios'
 
 export default {

@@ -13,7 +13,7 @@
     </div>
 </template>
 <script>
-import BooksContainer from '../components/BooksContainer.vue';
+import BooksContainer from '../components/main/BooksContainer.vue';
 import axios from 'axios';
 export default {
     name: 'BooksList',
