@@ -8,7 +8,7 @@
                 <button @click="this.previousPage" class="btn btn-primary me-3">previous page</button>
                 <button @click="this.nextPage" class="btn btn-primary">next page</button>
             </div>
-            <BooksContainer :booksList="books"/>
+            <BooksContainer :books="books"/>
         </div>
     </div>
 </template>
